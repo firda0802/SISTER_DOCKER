@@ -1,0 +1,9 @@
+FROM alpine:3 
+
+LABEL author="Firda Agustina Kusumaningrum"
+LABEL nim="11201033"
+LABEL prodi="informatika"
+
+RUN mkdir hai
+RUN echo "Hai my name is firda" > "hai.txt"
+CMD  cat "hai.txt"

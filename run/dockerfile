@@ -1,0 +1,5 @@
+FROM alpine:3 
+
+RUN mkdir hai
+RUN echo "Hai my name is firda" > "hai.txt"
+RUN cat "hai.txt"
